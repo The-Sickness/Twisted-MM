@@ -83,8 +83,8 @@ static gpu_attribute gpu_config_attributes[] = {
 };
 
 static gpu_attribute gpu_config_attributes[] = {
-	{GPU_MAX_CLOCK, 772},
-	{GPU_MAX_CLOCK_LIMIT, 700},
+	{GPU_MAX_CLOCK, 852},
+	{GPU_MAX_CLOCK_LIMIT, 852},
 	{GPU_MIN_CLOCK, 100},
 	{GPU_DVFS_START_CLOCK, 100},
 	{GPU_DVFS_BL_CONFIG_CLOCK, 100},
