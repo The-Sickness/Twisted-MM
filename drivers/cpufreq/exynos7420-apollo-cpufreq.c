@@ -306,7 +306,6 @@ static void __init set_volt_table_CA53(void)
 	}
 
 	min_support_idx_CA53 = L18;	/* 200MHz */
-		max_support_idx_CA53 = G92X_CPU_MAX_FREQ_LITTLE;
 		max_support_idx_CA53 = EXYNOS7420_CPU_MAX_FREQ_LITTLE;
 
 	min_support_idx_CA53 = EXYNOS7420_CPU_MIN_FREQ_LITTLE;
