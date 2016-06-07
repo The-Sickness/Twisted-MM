@@ -81,7 +81,7 @@
 
 #ifdef CONFIG_G92X_CPU_OVERCLOCK
 	#define G92X_CPU_MAX_FREQ_LITTLE L4		/* 1600MHz */
-	#define G92X_CPU_MAX_FREQ_BIG L0		/* 2500MHz */
+	#define G92X_CPU_MAX_FREQ_BIG L0		/* 2300MHz */
 #else
  	#define G92X_CPU_MAX_FREQ_LITTLE L5		/* 1500MHz */
 	#define G92X_CPU_MAX_FREQ_BIG L4		/* 2100MHz */
