@@ -302,16 +302,12 @@ static void __init set_volt_table_CA53(void)
 	case 12 :
 		max_support_idx_CA53 = L7; break;	/* 1.3GHz */
 	default :
-<<<<<<< HEAD
 		max_support_idx_CA53 = L4;	/* 1.6GHz */
 	}
 
 	min_support_idx_CA53 = L18;	/* 200MHz */
 		max_support_idx_CA53 = G92X_CPU_MAX_FREQ_LITTLE;
-=======
 		max_support_idx_CA53 = EXYNOS7420_CPU_MAX_FREQ_LITTLE;
->>>>>>> bf3dcd8... linux/clocker: make it universal
-	}
 
 	min_support_idx_CA53 = EXYNOS7420_CPU_MIN_FREQ_LITTLE;
 
